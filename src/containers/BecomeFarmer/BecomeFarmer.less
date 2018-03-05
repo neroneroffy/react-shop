@@ -1,0 +1,148 @@
+@normalBackgroundColor:#f2f2f2;
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor: #b0b0b0;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+
+.become-farmer-head img{
+  width: 100%;
+  height: 150px;
+}
+.become-farmer-body{
+  padding: 0 5%;
+}
+.become-farmer-body-top{
+  height: 70px;
+  padding-top: 15px;
+}
+.become-farmer-body-top div span{
+  color:@normalGreen;
+}
+.user-mess{
+  width: 100%;
+  margin-top: 8px;
+}
+.user-mess-inner{
+  padding: 5px 0;
+}
+.become-farmer-submit{
+  width: 100%;
+  margin: 10px 0 0 0;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  background: -webkit-linear-gradient(315deg, #8AD060, #5FD19D);
+  background: -o-linear-gradient(315deg, #8AD060, #5FD19D);
+  background: linear-gradient(135deg, #8AD060, #5FD19D);
+  border-radius: 5px;
+}
+.become-farmer-foot{
+  padding: 0 5%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.become-farmer-foot-txt{
+  background: white;
+  margin-top: 5px;
+}
+.become-farmer-foot-inner{
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 0 8px 8px;
+  border-bottom: 1px solid @normalFontColor;
+}
+.become-farmer-foot-inner-pic{
+  font-size: 20px;
+  color:@normalGreen;
+}
+.become-farmer-foot-txt .become-farmer-foot-inner .become-farmer-foot-inner-text{
+  margin-left: 10px;
+}
+.become-farmer-foot-inner-text p:nth-child(1){
+  font-size: 13px;
+}
+.become-farmer-foot-inner-txt{
+  padding: 8px 0 8px 8px;
+}
+.user-mess-inner-input{
+  width: 100%;
+}
+.become-farmer-body-center .ant-cascader-picker{
+  display: inline-block;
+  width: 100%;
+}
+.user-mess-inner-input .ant-cascader-input{
+  width: 100% !important;
+  border: 1px solid #d9d9d9!important;
+  height: 28px!important;
+}
+.become-farmer-body-center .become-farmer-body-input{
+  background: white;
+}
+.become-farmer-body-center .become-farmer-body-input input{
+  width: 100%;
+  height: 28px;
+}
+.become-farmer-body-center{
+  position: relative;
+}
+.clear-div{
+  width: 150px;
+  height: 100px;
+  background: black;
+  opacity: 0.3;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  position: fixed;
+  left: 0;
+  top:0;
+  right:0;
+  bottom: 0;
+  margin:auto;
+  color: white;
+}
+.clear-div div{
+  font-size: 20px;
+}
+.become-farmer-body-center div:nth-child(1) input,.become-farmer-body-center div:nth-child(2) input,.become-farmer-body-center div:nth-child(3) input,.become-farmer-body-input input{
+  border:1px solid #d9d9d9;
+  border-radius: 5px;
+  padding-left: 5px;
+  outline: none;
+}
+.become-farmer-body-center div:nth-child(1) input::placeholder,.become-farmer-body-center div:nth-child(2) input::placeholder,.become-farmer-body-center div:nth-child(3) input::placeholder,.become-farmer-body-input input::placeholder{
+  color:#d9d9d9
+}
+.user-mess-inner-input .ant-input:focus{
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.user-mess-inner-input input::selection{
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.become-farmer{
+  background: #fff;
+}
+.warning-enter{
+  opacity: 0;
+}
+.warning-enter.warning-enter-active{
+  opacity: 0.3;
+  transition: all 500ms ease-in;
+}
+.warning-leave{
+  opacity: 0.3;
+}
+.warning-leave.warning-leave-active{
+  opacity: 0;
+  transition: all 600ms ease-in;
+}
+.farmer-loading{
+  margin-top: 260px;
+}

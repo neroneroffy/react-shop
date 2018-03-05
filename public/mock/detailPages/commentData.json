@@ -1,0 +1,47 @@
+[
+    {
+      "commentAvatar":"../images/avatar1.jpg",
+      "commentUserName":"张三",
+      "commentTime":"2016-05-30",
+      "commentRate":3,
+      "commentPic":[],
+      "commentContent":"这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味"
+
+    },
+    {
+      "commentAvatar":"../images/avatar2.jpg",
+      "commentUserName":"张三",
+      "commentTime":"2016-05-30",
+      "commentRate":3,
+      "commentPic":["../images/myphoto1.jpg","../images/myphoto2.jpg","../images/myphoto3.jpg","../images/myphoto4.jpg","../images/myphoto5.jpg"],
+      "commentContent":"这苹果确实挺甜，就是这个味,这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味"
+
+    },
+    {
+      "commentAvatar":"../images/avatar2.jpg",
+      "commentUserName":"张三",
+      "commentTime":"2016-05-30",
+      "commentRate":3,
+      "commentPic":["../images/myphoto1.jpg","../images/myphoto2.jpg","../images/myphoto3.jpg","../images/myphoto4.jpg","../images/myphoto5.jpg"],
+      "commentContent":"这苹果确实挺甜，就是这个味,这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味这苹果确实挺甜，就是这个味"
+
+    },
+    {
+      "commentAvatar":"../images/avatar3.jpg",
+      "commentUserName":"张三",
+      "commentTime":"2016-05-30",
+      "commentRate":3,
+      "commentPic":[],
+      "commentContent":"这苹果确实挺甜，就是这个味"
+
+    },
+    {
+      "commentAvatar":"../images/avatar3.jpg",
+      "commentUserName":"张三",
+      "commentTime":"2016-05-30",
+      "commentRate":3,
+      "commentPic":[],
+      "commentContent":"这苹果确实挺甜，就是这个味"
+
+    }
+  ]

@@ -1,0 +1,68 @@
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+.pay-top{
+  height: 50px;
+  width: 100%;
+  padding:0 5%;
+  background: #fff;
+  font-size: @normalFontColor;
+  font-size: @normalFontSize;
+}
+.pay-order{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.pay-back{
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+.pay-loading{
+  margin-top: 280px;
+}
+.pay-content .pay-info{
+  margin-top: 5px;
+  background: #fff;
+  padding:0 5%;
+}
+.pay-content .pay-info div{
+  height:40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: @normalFontColor;
+  display: flex;
+  justify-content: space-between;
+}
+.pay-content .pay-info div:nth-child(2){
+  border-top: 1px solid #d5d5d5;
+}
+.pay-content .pay-order-price span:nth-child(2){
+  color: @normalRed;
+  font-weight: bold;
+}
+.pay-content .pay-order-price span:nth-child(2) span{
+  font-size: 12px;
+}
+.pay-my-order-button{
+  width: 90%;
+  margin:0 auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: @normalFontSize;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.pay-my-order-button.we-pay{
+  background: linear-gradient(135deg,#8AD060,#5FD19D);
+  color:#fff
+}
+.pay-my-order-button.charge-pay{
+  border:1px solid #5FD19D;
+  color:#5FD19D
+}

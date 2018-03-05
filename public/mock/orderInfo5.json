@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "status":1,
+      "isCurrent":false,
+      "orderInfo":[
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+                "goodPrice": "59.00",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 39,
+                "speciItemId": 0,
+                "count": 3
+        },
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+                "goodPrice": "59.00",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 39,
+                "speciItemId": 0,
+                "count": 3
+        }
+      ]
+    },
+    {
+      "status":0,
+      "isCurrent":false,
+      "orderInfo":[
+        {
+          "pic": "../images/speci3pic1.jpg",
+          "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+          "goodPrice": "59.00",
+          "id": 0,
+          "speciName": "包装",
+          "specificationId": 1,
+          "speciDetailName": "两粒装",
+          "price": 39,
+          "speciItemId": 0,
+          "count": 3
+        },
+        {
+          "pic": "../images/speci3pic1.jpg",
+          "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+          "goodPrice": "59.00",
+          "id": 0,
+          "speciName": "包装",
+          "specificationId": 1,
+          "speciDetailName": "两粒装",
+          "price": 39,
+          "speciItemId": 0,
+          "count": 3
+        },
+        {
+          "pic": "../images/speci3pic1.jpg",
+          "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+          "goodPrice": "59.00",
+          "id": 0,
+          "speciName": "包装",
+          "specificationId": 1,
+          "speciDetailName": "两粒装",
+          "price": 39,
+          "speciItemId": 0,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "status":2,
+      "isCurrent":false,
+      "orderInfo":[
+        {
+          "pic": "../images/speci3pic1.jpg",
+          "name": "儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+          "goodPrice": "59.00",
+          "id": 0,
+          "speciName": "包装",
+          "specificationId": 1,
+          "speciDetailName": "两粒装",
+          "price": 39,
+          "speciItemId": 0,
+          "count": 3
+        }
+      ]
+    }
+
+  ]
+}
+
+

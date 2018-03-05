@@ -1,0 +1,65 @@
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+.good-pay-item{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+}
+.good-pay-item:first-child{
+  margin-top: 5px;
+}
+.good-pay-item .good-pay-pic{
+  flex:0 1 auto;
+  width: 75px;
+  height: 75px;
+}
+.good-pay-item .info{
+  flex:1 1 auto;
+  margin-left: 15px;
+
+}
+.good-pay-item .info .name{
+  font-size: 14px;
+  font-weight: bold;
+  color: #757575;
+}
+.good-pay-item .info .speci{
+  font-size: 14px;
+  color: #a6a6a6;
+  margin-top: 8px;
+}
+.good-pay-item .info .price-count{
+  display: flex;
+  font-size: 16px;
+  margin-top: 8px;
+  color: #a6a6a6;
+  justify-content: space-between;
+}
+.good-pay-item .info .price-count .price{
+  font-size: 16px;
+  color: #fc3500;
+}
+.good-pay-item .info .price-count .price span{
+  font-size: 12px;
+  color: #fc3500;
+  margin-right: 4px;
+}
+.good-pay-item .good-pay-pic img{
+  width: 75px;
+  border-radius: 5px;
+}
+.evaluate-now{
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border:1px solid @normalGreen;
+  padding:0 15px;
+  border-radius: 60px;
+  color: @normalGreen;
+}

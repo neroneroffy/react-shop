@@ -1,0 +1,124 @@
+.every-item{
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top:20px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.good-item-pic{
+  display: inline-block;
+  margin-left: 30px;
+  flex:0
+}
+.good-item-pic img{
+  width: 70px;
+}
+.goods-item-in-cart-info{
+  display: inline-block;
+  vertical-align: top;
+  width: 73%;
+  flex:2;
+  color:#757575
+}
+.goodsItemInCartInfo:hover{
+  color:#757575
+}
+.goods-item-in-cart-name{
+  margin-left: 10px;
+}
+.cart-specification{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.everyGood{
+  position: relative;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.good-price{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #ec2201;
+}
+
+.checkbox-green{
+  -webkit-appearance: none;
+  top:0px;
+  left:0px;
+  width: 18px;
+  height: 18px;
+  background-color: #FFFFFF;
+  border: solid 1px #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+  color:#fff
+}
+.item-select{
+  position: absolute;
+}
+.checkbox-green:before{
+  content: '';
+  display: block;
+  width: 5px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top:8px;
+  left:3px;
+  border-radius: 1px;
+  transform:rotate(45deg)
+}
+.checkbox-green:after{
+  content: '';
+  display: block;
+  width: 9px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 7px;
+  left:5px;
+  border-radius: 1px;
+  transform:rotate(-35deg);
+}
+.checkbox-green:checked {
+  background-color: #5cb85c;
+}
+/*计数器*/
+.cart-goods-count{
+  position: absolute;
+  right:0;
+  bottom:10px;
+  display: inline-block;
+  flex:2
+}
+.cart-goods-count div{
+  display: inline-block;
+  border:1px solid #e4e4e4;
+}
+.cart-goods-count .good-number{
+  padding:3px 5px;
+  display: inline-block;
+  width: 28px;
+  text-align: center;
+  border-top:1px solid #e4e4e4;
+  border-bottom:1px solid #e4e4e4;
+  border-left:none;
+  border-right:none;
+}
+.cart-goods-count .add{
+  padding:3px 7px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.cart-goods-count .sub{
+  padding:3px 7px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}

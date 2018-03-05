@@ -1,0 +1,20 @@
+{
+  "pic":"../images/speci1pic2.jpg",
+  "status":2,
+  "expressType":"EMS邮政",
+  "expressOrderCode":36549821564,
+  "progress":[
+    {
+      "step":"包裹正在等待揽收",
+      "time":"2013-09-28 10:48:10"
+    },
+    {
+      "step":"由湖南中转部发往北京中转部",
+      "time":"2013-09-29 10:48:10"
+    },
+    {
+      "step":"包裹已签收",
+      "time":"2013-09-28 10:48:10"
+    }
+  ]
+}

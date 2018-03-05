@@ -1,0 +1,106 @@
+{
+  "addressInfo":{
+    "consignee":"周海涛",
+    "telephone":"18840846671",
+    "area": {
+      "value": 0,
+      "label": "北京",
+      "children": [
+        {
+          "value": 1,
+          "label": "北京",
+          "children": [
+            {
+              "value": 2,
+              "label": "通州"
+            }
+          ]
+        }
+      ]
+    },
+    "address":"北京市通州区绿荷农场",
+    "isCurrent":1,
+    "id":6
+  },
+  "data":[
+    {
+      "name":"宝宝大苹果大水果",
+      "pic":"../images/gooditem3.jpg",
+      "speci":"四粒超值装",
+      "id":1,
+      "price":200,
+      "count":3
+    },
+    {
+      "name":"精品南非进口宝宝大芒果",
+      "pic":"../images/gooditem2.jpg",
+      "speci":"散装20斤",
+      "id":2,
+      "price":287.63,
+      "count":2
+    }
+  ],
+  "express":[
+    {
+      "expressType":"EMS",
+      "charge":{
+            "0":10,
+            "6":15,
+            "8":12
+      },
+      "isCurrent":1,
+      "id":888
+    },
+    {
+      "expressType":"SF",
+      "charge":{
+            "0":30,
+            "6":45,
+            "8":72
+      },
+      "isCurrent":0,
+      "id":999
+    }
+
+  ],
+
+
+  "coupon":[
+          {
+            "price":50,
+            "condition":10,
+            "deadline":"2017.03.29-2017.06.23",
+            "id":1,
+            "isCurrent":0
+          },
+          {
+            "price":77,
+            "condition":5000,
+            "deadline":"2017.03.29-2017.06.23",
+            "id":2,
+            "isCurrent":0
+          },
+          {
+            "price":500.87,
+            "condition":200000,
+            "deadline":"2017.03.29-2017.06.23",
+            "id":3,
+            "isCurrent":0
+          },
+          {
+            "price":87,
+            "condition":6000,
+            "deadline":"2017.03.29-2017.06.23",
+            "id":4,
+            "isCurrent":0
+          },
+          {
+            "price":50,
+            "condition":1100,
+            "deadline":"2017.03.29-2017.06.23",
+            "id":5,
+            "isCurrent":0
+          }
+  ],
+  "score":200
+}

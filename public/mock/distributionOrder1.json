@@ -1,0 +1,21 @@
+{
+  "distributionorder":[
+    {
+      "numberings":"SH201709251034154168",
+      "earnings":"3.99",
+      "time":"2017-09-25 10:34",
+      "status":0,
+      "id":0,
+      "level":"一级收益",
+      "detail":[]
+    },{
+      "numberings":"SH201709031953380302",
+      "earnings":"4.49",
+      "time":"2017-09-03 19:53",
+      "status":1,
+      "id":1,
+      "level":"二级收益",
+      "detail":[]
+    }
+  ]
+}

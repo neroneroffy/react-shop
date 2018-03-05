@@ -1,0 +1,244 @@
+@normalBackgroundColor:#f2f2f2;
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor: #757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+.distribution-head{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-bottom: 1px solid #dcdcdc;
+
+}
+.distribution-head-inner{
+  width: 90%;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+.distribution-head-inner i{
+  position: absolute;
+  left: 0;
+  top: 19px;
+  font-size: 14px;
+  color:@normalFontColor;
+}
+.distribution-head-content{
+  height: 50px;
+  position: absolute;
+  font-size: @normalFontSize;
+  left: 20px;
+  top: 14px;
+  color:@normalFontColor;
+}
+.distribution-head-all{
+  position: absolute;
+  right: 0;
+  top: 16px;
+  font-size: @normalFontSize;
+}
+.distributionNull{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 14px;
+}
+.ant-tabs-line .ant-tabs-bar{
+  margin-bottom: 0;
+}
+.distribution-body-content{
+  width: 100%;
+  background: white;
+  margin-top: 10px;
+
+}
+.distribution-body-inner-div1 div:nth-child(1){
+  margin-bottom: 10px;
+}
+.distribution-body-inner{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 12px 0;
+}
+.distribution-body-inner-div1{
+  display: flex;
+  justify-content: space-between;
+}
+.distribution-body-time{
+  font-weight: bold;
+}
+.distribution-body-time,.distribution-body-price{
+
+  color: @normalFontColor;
+}
+.distribution-body-state{
+  color: @normalGreen;
+  font-size: @normalFontSize;
+
+}
+
+
+.person-info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding:10px 8%;
+  border-top: 1px solid #e5e5e5;
+}
+.person-info-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.person-info-name{
+  margin-left: 10px;
+  font-size: 14px;
+  color: #757575;
+}
+.distribution-body-display-content{
+  margin-left: 15px;
+}
+.distribution-body-display-content div:nth-child(1){
+    color: black;
+    font-size: 16px;
+}
+.distribution-body-display-content div:nth-child(2){
+  margin-top: 10px;
+  font-size: 14px;
+}
+.goods-person{
+  margin-top: 25px;
+  padding:0 5%
+}
+.goods-person:first-child{
+  margin-top: 0;
+}
+.distribution-order-wrapper{
+  background: #f6f6f6;
+  padding:15px 5%
+}
+.goods-info{
+  display: flex;
+  justify-content: space-between;
+}
+.goods-info-left-img img{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.goods-info-left{
+  display: flex;
+  justify-content: flex-start;
+}
+.goods-info-left-txt{
+   margin-left: 15px;
+   font-size: @normalFontSize;
+}
+.goods-info-left-txt div:nth-child(2){
+  margin-top: 20px;
+}
+.goods-info-right{
+
+}
+.goods-info-right div{
+  font-size: 14px;
+}
+.goods-info-right div:nth-child(2){
+  margin-top: 18px;
+  text-align: right;
+  color: @normalGreen;
+}
+.goods-info-btn{
+  display: inline-block;
+  border: 1px solid #b6b6b6;
+  padding:0 10px;
+  height: 30px;
+  line-height: 28px;
+  margin: 10px 0 10px 5%;
+  text-align: center;
+  color: #b6b6b6;
+  border-radius: 30px;
+
+}
+
+.distribution-body-display{
+  margin-top: 5px;
+  width: 100%;
+  min-height: 0;
+  background: white;
+
+}
+.distribution-body-display-txt{
+  background: #fff;
+  min-height: 0px;
+  overflow: hidden;
+}
+
+.distribution-animation-enter {
+  height: 0;
+}
+.distribution-animation-enter.distribution-animation-enter-active {
+  height:220px;
+  transition: all 500ms ease-in;
+}
+.distribution-animation-leave {
+  height: 220px;
+}
+.distribution-animation-leave.distribution-animation-leave-active {
+  height: 0;
+  transition: all 500ms ease-in;
+}
+
+
+.distribution-body .ant-tabs-tab{
+  width: 50%;
+  padding:8px;
+  margin-right:0;
+  text-align: center;
+}
+
+.distribution-body .ant-tabs-nav{
+  justify-content: space-between;
+}
+.distribution-loading{
+  margin-top: 230px;
+}
+.distribution-msg{
+  text-align: center;
+  margin-top: 120px;
+}
+/*
+.distribution-body .ant-tabs-nav-animated{
+  display: flex;
+  justify-content: flex-start;
+}
+.distribution-body .ant-tabs-tab{
+  width: 25%;
+  padding:8px;
+  margin-right: 0;
+  text-align: center;
+}
+*/
+.distribution-wrapper{
+  padding-bottom: 80px;
+}
+.page-loading{
+  margin-top: 10px;
+}
+.distribution-bottom-msg{
+  margin-top: 10px;
+  text-align: center;
+}
+.distribution-head{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1000;
+}
+.distribution-body{
+  margin-top: 51px;
+}

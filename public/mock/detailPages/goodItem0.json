@@ -1,0 +1,39 @@
+{
+  "detailBanner":["../images/detail1.jpg", "../images/detail2.jpg"],
+  "detailName":"儿童防滑拖鞋 | 专为儿童设计，全方位防滑，保护宝宝健康成长 (Children's Anti-slippery Slippers)",
+  "specification":[
+    {
+      "name":"包装",
+      "specificationId":1,
+      "specificationItems":[
+        {
+          "speciName":"两粒装",
+          "speciPrice":39,
+          "speciRepertory":780,
+          "speciPic":"../images/speci2pic1.jpg",
+          "speciId":0
+        },
+        {
+          "speciName":"四粒装",
+          "speciPrice":70,
+          "speciRepertory":9954,
+          "speciPic":"../images/speci2pic2.jpg",
+          "speciId":1
+        },
+        {
+          "speciName":"超值优惠大包(7粒装)",
+          "speciPrice":120,
+          "speciRepertory":6545,
+          "speciPic":"../images/speci2pic3.jpg",
+          "speciId":2
+        }
+      ]
+    }
+  ],
+  "id":1,
+  "disCountInfo":["满100包邮","会员7折","赠品"],
+  "remark":"单笔订单满168包邮",
+  "earnings":"7%",
+  "sendArea":"北京、天津、河北省（邯郸除外）",
+  "sendTime":"每日22点截单，次日发货（北京、天津、河北省（邯郸除外））"
+}

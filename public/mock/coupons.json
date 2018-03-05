@@ -1,0 +1,42 @@
+{"coupon":[
+{
+"price":0,
+"condition":300,
+"deadline":"2017.03.29-2017.06.23",
+"id":1,
+"isCurrent":0,
+  "status":0
+},
+{
+"price":1,
+"condition":5000,
+"deadline":"2017.03.29-2017.06.23",
+"id":2,
+"isCurrent":0,
+  "status":1
+},
+{
+"price":1,
+"condition":5000,
+"deadline":"2017.03.29-2017.06.23",
+"id":2,
+"isCurrent":0,
+  "status":1
+},
+{
+"price":0,
+"condition":200000,
+"deadline":"2017.03.29-2017.06.23",
+"id":3,
+"isCurrent":0,
+ "status":0
+},
+{
+ "price":1,
+ "condition":1100,
+ "deadline":"2017.03.29-2017.06.23",
+ "id":5,
+ "isCurrent":1,
+  "status":2
+}
+]}

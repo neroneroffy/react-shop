@@ -1,0 +1,526 @@
+
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+.confirm-order-loading{
+  margin-top: 300px;
+}
+.submit-order{
+  padding-bottom: 70px;
+}
+.confirm-order{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-bottom: 1px solid #d8d8d8;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1000;
+}
+.confirm-order-inner{
+  font-size: @normalFontSize;
+  width: 90%;
+  margin:0 auto;
+}
+.confirm-order-inner .go-back{
+  height: 50px;
+  line-height: 50px;
+  color: @normalFontColor;
+}
+.confirm-order-inner .go-back span{
+  margin-left: 10px;
+}
+/*收货人信息*/
+
+.address-info{
+  width: 100%;
+  display: block;
+  background: #fff;
+  padding-bottom: 15px;
+  position: relative;
+  margin-top: 48px;
+  color: @normalFontColor;
+}
+.newAddress{
+  color:@normalGreen
+}
+.address-info .address-info-inner{
+  width: 90%;
+  margin:0 auto;
+}
+.address-info .address-info-inner .addressIcon{
+  font-size: 25px;
+  line-height: 120px;
+}
+.address-info .address-info-inner .Consignee{
+  font-size: 16px;
+  padding-left: 30px;
+
+  height: 45px;
+  line-height: 45px;
+  padding-top: 5px;
+}
+.address-info .address-info-inner .Consignee span:first-child{
+  letter-spacing: 2px;
+}
+.address-info .address-info-inner .Consignee span:nth-child(2){
+  margin-right: 43px;
+}
+.address-info .info{
+  font-size: @normalFontSize;
+  padding-left: 30px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.address-info .info i:first-child{
+  font-size: 20px;
+  position: absolute;
+  left:0;
+  top:2px;
+  color: @normalFontColor;
+}
+.address-info .info i:last-child{
+  font-size: 16px;
+  position: absolute;
+  right:0;
+  top:2px;
+  color: #c8c8c8
+}
+.address-info .decoration{
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  bottom:0px;
+  background: #fff;
+  line-height: 0;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.address-info .decoration div{
+  height: 6px;
+  margin:0 7px;
+  width: 20px;
+  display: inline-block;
+  transform: skew(-20deg);
+}
+.address-info .decoration .blue{
+  background: #8ccaf3;
+}
+.address-info .decoration .red{
+  background: #f58f8d;
+}
+.add-address-wrapper{
+
+  padding-bottom: 0;
+}
+.add-address{
+  color: @normalGreen;
+  font-size: @normalFontSize;
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.submit-order-good-info{
+  margin-top: 8px;
+  width: 100%;
+  background: #fff;
+}
+.submit-order-good-info .goodInfoInner{
+  width: 90%;
+  margin:0 auto;
+  padding:5px 0 0px 0
+}
+.submit-order-good-info .goodInfoInner .title{
+  height: 50px;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  border-bottom: 1px solid @normalBorderColor;
+  margin-bottom: 18px;
+}
+.submit-order-good-info .goodInfoInner .title span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.submit-order-good-info .goodInfoInner .title span:nth-child(2){
+  margin-top: 6px;
+}
+.submit-order-good-info .goodInfoInner .title .logo{
+  font-size: 0;
+}
+.submit-order-good-info .goodInfoInner .title .logo img{
+  margin-top: 3px;
+  width: 40px;
+}
+
+.submit-order-price-info{
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+}
+/*.submit-order-price-info div:nth-child(1) span{
+  color: @normalRed;
+}*/
+
+.submit-order-price-info span:nth-child(1){
+  margin-right: 10px;
+}
+.submit-order-price-info span:nth-child(2){
+  font-size: 12px;
+  color: @normalRed;
+}
+.submit-order-price-info span:nth-child(3){
+  font-size: 16px;
+  color: @normalRed;
+}
+
+.good-pay-bottom{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index: 2000;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 -1px 2px rgba(0,0,0,0.1);
+}
+.good-pay-bottom .submit-button,.good-pay-bottom .not-allow-submit{
+  height: 60px;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 16px;
+  background: @normalGreen;
+  color: #fff;
+  margin-left: 20px;
+}
+.good-pay-bottom .not-allow-submit{
+  background: #ccc;
+}
+.good-pay-bottom .total-price span:nth-child(1){
+  font-size: 12px;
+  color: @normalRed;
+}
+.good-pay-bottom .total-price span:nth-child(2){
+  font-size: 16px;
+  color: @normalRed;
+}
+.count-info{
+  font-size: 12px;
+  color:#b6b6b6;
+  margin-right: 20px;
+}
+.submit-order-express{
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  margin-top: 10px;
+  border-bottom: 1px solid @normalBorderColor;
+}
+.submit-discount-coupon,submit-free-post{
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  border-bottom: 1px solid @normalBorderColor;
+}
+
+.submit-order-express-inner,.submit-discount-coupon-inner,.submit-free-post-inner{
+  width: 90%;
+  font-size: @normalFontSize;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+}
+/*------------------是否使用优惠券-------------*/
+.submit-discount-coupon-inner{
+  display: flex;
+  justify-content: space-between;
+}
+.use-coupon{
+  width: 180px;
+  text-align: right;
+  position: relative;
+}
+.check-post{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border:2px solid #cfcfcf;
+  position: relative;
+  top:3px;
+  margin-right: 10px;
+}
+.check-post-active:before{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 3px;
+  background: @normalGreen;
+  border-radius: 6px;
+  transform: rotate(-135deg);
+  position: absolute;
+  top:5px;
+  left:-5px
+}
+.check-post-active:after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: @normalGreen;
+  border-radius: 6px;
+  transform: rotate(135deg);
+  position: absolute;
+  top:3px;
+  left:1px
+}
+.userScore{
+  color: @normalRed;
+  font-size: 16px;
+}
+.express-type span span:nth-child(1){
+  font-size: 12px;
+  color:@normalRed;
+}
+.express-type span span:nth-child(2){
+  font-size: 16px;
+  color: @normalRed;
+}
+.express-type i{
+  color: #b6b6b6;
+  margin-left: 10px;
+}
+.discount-count{
+  font-size: @normalFontSize;
+}
+.discount-count .count-number{
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  color: #fff;
+  font-size: @normalFontSize;
+  background: #b6b6b6;
+  position: absolute;
+  top:15px;
+  right:30px
+}
+.discount-count .count-number-active{
+  background: @normalRed;
+
+}
+
+.discount-count span>i{
+  color: #b6b6b6;
+  margin-left: 10px;
+}
+.discount-count .no-discount{
+  color: #b6b6b6;
+  font-size: @normalFontSize;
+}
+.discount-count .has-use-discount{
+  color: @normalRed;
+}
+.submit-order-remark{
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  border-bottom: 1px solid @normalBorderColor;
+}
+.submit-order-remark-inner{
+  width: 90%;
+  margin:0 auto;
+  font-size: @normalFontSize;
+}
+.submit-order-remark input{
+  line-height: 30px;
+  width: 260px;
+  padding-left: 5px;
+  border:none;
+  outline: none;
+}
+.select-wrapper{
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  bottom:0px;
+  z-index: 5000;
+}
+.select-wrapper-inner{
+  width: 90%;
+  margin:40px auto 0 auto;
+  overflow: auto;
+  height: 260px
+}
+.select-wrapper p{
+  text-align: center;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  background: #fff;
+  position: absolute;
+  top:0;
+  z-index: 1000;
+}
+.select-wrapper .alert-title{
+  position:relative;
+}
+.select-wrapper .alert-title:before,.alert-title:after{
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40px;
+  background: #b6b6b6;
+  position: absolute;
+  top: 6px;
+
+}
+.alert-title:before{
+  left:-45px
+}
+.alert-title:after{
+  right:-45px
+}
+
+//优惠券容器动画
+.select-wrapper-display-enter {
+  bottom:-300px
+}
+.select-wrapper-display-enter.select-wrapper-display-enter-active {
+  bottom:0px;
+  transition: all 300ms linear;
+}
+
+.select-wrapper-display-leave {
+  bottom:0px;
+}
+
+.select-wrapper-display-leave.select-wrapper-display-leave-active {
+  bottom:-300px;
+  transition: all 300ms linear;
+}
+//模态层动画
+.modal-display-enter {
+  opacity: 0;
+  background: rgba(0,0,0,0);
+}
+.modal-display-enter.modal-display-enter-active {
+  opacity: 0.3;
+  background: rgba(0,0,0,0.3);
+  transition: all 300ms linear;
+}
+.modal-display-leave {
+  opacity: 0.3;
+  background: rgba(0,0,0,0.3);
+}
+.modal-display-leave.modal-display-leave-active {
+  opacity: 0;
+  background: rgba(0,0,0,0);
+  transition: all 300ms linear;
+}
+.select-wrapper-modal{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 4000;
+}
+.coupon-wrapper{
+
+}
+/*配送方式选择*/
+.express-select{
+  font-size:@normalFontSize;
+  height: 40px;
+  border-bottom: 1px solid #cbcbcb;
+  line-height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.express-select-current:before{
+  content: "";
+  width: 12px;
+  height: 3px;
+  display: block;
+  background:@normalGreen;
+  position: absolute;
+  top:19px;
+  right:@normalFontSize;
+  border-radius: 6px;
+  transform: rotate(-135deg);
+}
+.express-select-current:after{
+  content: "";
+  width: 20px;
+  height: 3px;
+  display: block;
+  background: @normalGreen;
+  position: absolute;
+  top:16px;
+  right:0;
+  border-radius: 6px;
+  transform: rotate(135deg);
+}
+.express-select>span:first-child{
+  width: 80px!important;
+  margin-right: 20px;
+  display: inline-block;
+}
+.express-select span:last-child span{
+  color:@normalRed
+}
+.please-add-address{
+  color: #b6b6b6;
+}
+.submit-loading{
+  width: 70px;
+  height: 70px;
+  background: #000;
+  opacity: 0.3;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.submit-loading div{
+  height: 20px;
+}
+.submit-loading div:nth-child(1){
+  margin-top: -10px;
+  font-size: 20px;
+
+}
+.submit-loading div i{
+  margin-top: -10px;
+}

@@ -1,0 +1,30 @@
+
+.clearfix:after{
+  content: "";
+  clear:both;
+  height:0;
+}
+body,html,#root,#root>div{
+  height: 100%;
+  background: #f2f2f2;
+}
+.App div{
+  opacity: 1;
+}
+.router-transition-enter {
+  opacity: 0;
+}
+
+.router-transition-enter.router-transition-enter-active {
+  opacity: 1;
+  transition: opacity 8000ms ease-in;
+}
+
+.router-transition-leave {
+  opacity: 1;
+}
+
+.router-transition-leave.router-transition-leave-active {
+  opacity: 0;
+  transition: opacity 8000ms ease-in;
+}

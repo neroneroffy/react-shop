@@ -1,0 +1,58 @@
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+.order-item{
+  margin-top:10px;
+  background: #fff;
+  padding:15px 0;
+}
+.order-inner{
+  width: 90%;
+  margin:0 auto;
+}
+/*checkbox*/
+.check-order{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border:1px solid #e6e6e6;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: relative;
+}
+.check-order-active{
+  background: @normalGreen;
+}
+.check-order-active:before{
+  content: "";
+  width: 6px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 3px;
+  transform: rotate(-135deg);
+  border-radius: 20px;
+}
+.check-order-active:after{
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  transform: rotate(135deg);
+  border-radius: 6px;
+}
+.order-status span:nth-child(2){
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: @normalGreen;
+}

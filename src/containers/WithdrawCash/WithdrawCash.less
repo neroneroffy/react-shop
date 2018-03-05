@@ -1,0 +1,155 @@
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+
+.withdraw-cash-head{
+  width: 100%;
+  background: white;
+  height: 50px;
+}
+.withdraw-cash-inner{
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  position: relative;
+}
+.withdraw-cash-inner i{
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  top: 20px;
+  color:@normalFontColor;
+}
+.withdraw-cash-inner span{
+  position: absolute;
+  top: 16px;
+  font-size: 14px;
+  left: 18px;
+  color:@normalFontColor;
+}
+.withdraw-cash-body{
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  background: white;
+}
+.withdraw-cash-body-inner{
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 10px;
+
+}
+
+.withdraw-cash-body-div{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+}
+.withdraw-cash-body-div:before{
+  content: "";
+  display: block;
+  width: 5px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  border-radius: 1px;
+  transform: rotate(45deg);
+}
+.withdraw-cash-body-div:after{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  border-radius: 1px;
+  transform: rotate(-35deg);
+}
+.withdraw-cash-body-div-checked{
+  background-color: #5cb85c;
+}
+
+.withdraw-cash-body-txt{
+  margin-top: 8px;
+
+  display: flex;
+  padding-top: 8px;
+  justify-content: flex-start;
+}
+.withdraw-cash-body-txt span{
+  margin-left: 5px;
+  margin-top: -3px;
+  font-size: 15px;
+}
+.withdraw-cash-foot{
+  margin-top: 10px;
+  width: 100%;
+  height: 140px;
+  background: white;
+}
+.withdraw-cash-foot-inner{
+  width: 90%;
+  margin: 0 auto;
+  height: 140px;
+  padding-top: 20px;
+}
+.withdraw-cash-foot-txt{
+  font-size: 14px;
+}
+.withdraw-cash-foot-input{
+  margin-top: 10px;
+}
+.withdraw-cash-foot-input span{
+  font-size: 22px;
+}
+.withdraw-cash-foot-input input{
+  margin-left: 5px;
+  font-size: 14px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  outline: none;
+  width: 80%;
+}
+.withdraw-cash-foot-context{
+  margin-top: 16px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-cash-foot-all{
+  color:@normalGreen;
+}
+.withdraw-cash-btn{
+  width: 90%;
+  margin: 15px auto 0;
+  background: lightgray;
+  text-align: center;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.withdraw-cash-green{
+  width: 90%;
+  margin: 15px auto 0;
+  background: @normalGreen;
+  text-align: center;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.withdraw-cash-foot-red{
+  font-size: 14px;
+  color: red;
+}

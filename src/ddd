@@ -1,0 +1,35 @@
+<script>window._ZJX={ctx: "${ctx}", jsapi: ${jsapi}, orderId: "${orderId}"};</script>
+
+
+        try {
+            WxJsapiSignature signature = wxMpService.createJsapiSignature(CommonUtils.reqUrl(req));
+            JsapiDto dto = new JsapiDto(signature);
+            dto.setDebug(false);
+            dto.add("chooseWXPay");
+            dto.add("getLocation");
+            model.addAttribute("jsapi", JsonMapper.nonDefaultMapper().toJson(dto));
+        } catch (WxErrorException e) {
+            logger.error("获取微信jsapi签名失败", e);
+        }
+        model.addAttribute("orderId", orderId);
+
+
+
+public class JsapiDto {
+    private boolean debug;
+    private String appId;
+    private Long timestamp;
+    private String nonceStr;
+    private String signature;
+    private Set<String> jsApiList = new HashSet<>();
+
+    public JsapiDto() {
+    }
+
+    public JsapiDto(WxJsapiSignature signature) {
+        this.debug = Const.WECHAT_DEBUG;
+        this.appId = Const.WECHAT_APPID;
+        this.timestamp = signature.getTimestamp();
+        this.nonceStr = signature.getNoncestr();
+        this.signature = signature.getSignature();
+    }

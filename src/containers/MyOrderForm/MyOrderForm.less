@@ -1,0 +1,299 @@
+@normalBackgroundColor:#f2f2f2;
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor: #cbcbcb;
+
+.my-order-form{
+  background: @normalBackgroundColor;
+}
+.my-order-top{
+  width: 100%;
+  background: #fff;
+  display: block;
+  border-bottom: 1px solid #d8d8d8;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1000;
+}
+.my-order-inner{
+  width: 90%;
+  margin:0 auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+}
+.my-order-inner span{
+  margin-left: 10px;
+}
+.order-nav{
+  width: 100%;
+  position: fixed;
+  top:51px;
+  z-index: 1000;
+
+}
+.my-order-wrapper{
+  padding-bottom:60px
+}
+.my-order-form .my-order-go-back{
+  color: @normalFontColor;
+}
+.order-item{
+  margin-top:10px;
+  background: #fff;
+  padding:15px 0;
+  margin-bottom: 20px;
+}
+
+.order-inner{
+  width: 90%;
+  margin:0 auto;
+}
+/*checkbox*/
+.check-order{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border:1px solid #e2e2e2;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: relative;
+  float:left
+}
+.check-order-active{
+  background: @normalGreen;
+}
+.check-order-active:before{
+  content: "";
+  width: 6px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 3px;
+  transform: rotate(-135deg);
+  border-radius: 20px;
+}
+.check-order-active:after{
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  transform: rotate(135deg);
+  border-radius: 6px;
+}
+.order-status{
+  justify-content: space-between;
+  padding-bottom: 10px;
+  text-align: right;
+  border-bottom: 1px solid #f2f2f2;
+}
+.order-content{
+  display: block;
+
+}
+.order-status .order-one-last{
+  float: right;
+  color: @normalGreen;
+}
+.order-status span:nth-child(2){
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: @normalGreen;
+  display: inline-block;
+  float: right;
+}
+.order-form-loading{
+  margin-top: 200px;
+}
+.good-pay-wrapper{
+  padding-top: 10px;
+  background: #fafafa;
+}
+.order-operation{
+  display: flex;
+  justify-content: flex-end;
+}
+.order-operation div,.order-operation a{
+  margin-top: 15px;
+  margin-right: 5%;
+  font-size: @normalFontSize;
+  padding: 0 7px;
+  color:@normalFontColor;
+  height: 30px;
+  line-height: 30px;
+  border:1px solid #b7b7b7;
+  border-radius: 30px;
+}
+.order-operation div:nth-child(2){
+  color: @normalGreen;
+  border-color: @normalGreen;
+}
+.order-operation .order-pay{
+  padding:0 7px;
+  color: @normalGreen;
+  border-color: @normalGreen;
+}
+.order-operation .order-button-right.check-express{
+  color:@normalFontColor;
+  font-size: @normalFontSize;
+  border:1px solid #b7b7b7;
+}
+.order-operation .confirm,.order-operation .evaluate{
+  color: @normalGreen;
+  border-color: @normalGreen;
+}
+.order-operation .had-evaluate{
+  color: #dbdbdb;
+  font-size: @normalFontSize;
+  border:1px solid #dbdbdb;
+}
+
+
+.order-pay-button{
+  position: fixed;
+  bottom:45px;
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  box-shadow: 0 -1px 4px #d5d5d5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.order-pay-button>span{
+  font-size:18px;
+  font-weight: bold;
+  color: @normalRed;
+}
+.order-pay-button>span span{
+  font-size:@normalFontSize;
+  color: @normalFontColor;
+  font-weight: normal;
+}
+.order-pay-button .pay-button{
+  height: 30px;
+  margin-left: 30px;
+  margin-right: 5%;
+  padding:0 15px;
+  line-height: 30px;
+  border-radius: 5px;
+  font-size: @normalFontSize;
+  background: #5FD19D;
+  color: #fff;
+}
+.order-pay-button span{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+.order-pay-enter {
+  bottom: -20px;
+}
+
+.order-pay-enter.order-pay-enter-active {
+  bottom: 45px;
+  transition: bottom 300ms ease-in;
+}
+
+.order-pay-leave {
+  bottom: 45px;
+}
+
+.order-pay-leave.order-pay-leave-active {
+  bottom: -20px;
+  transition: bottom 300ms ease-in;
+}
+
+
+
+
+
+.my-order-form .ant-tabs-bar{
+  width: 100%;
+  position: fixed;
+  top:51px;
+  z-index: 1000;
+  box-shadow: 0px 1px 6px #d5d5d5
+}
+.my-order-form .ant-tabs-bar{
+  width: 100%;
+  position: fixed;
+  top:51px;
+  z-index: 1000;
+  box-shadow: 0px 1px 6px #d5d5d5
+}
+.my-order-form .ant-tabs-nav{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+}
+.my-order-form .ant-tabs-nav .ant-tabs-tab{
+  text-align: center;
+  margin: 0;
+  width: 20%;
+  padding:8px 6px;
+}
+.my-order-form .ant-tabs-content{
+  margin-top: 85px;
+}
+.my-order-form .ant-tabs-content .ant-tabs-tabpane{
+  width: 100%;
+}
+.page-loading{
+  padding-bottom: 15px;
+}
+.order-list-no-data{
+  text-align: center;
+  margin-top: 10px;
+
+}
+.submit-loading{
+  width: 70px;
+  height: 70px;
+  background: #000;
+  opacity: 0.3;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.submit-loading div{
+  height: 20px;
+}
+.submit-loading div:nth-child(1){
+  margin-top: -10px;
+  font-size: 20px;
+
+}
+.submit-loading div i{
+  margin-top: -10px;
+}
+.my-order-pay{
+  padding:0 20px!important;
+  color: @normalGreen!important;
+  border-color: @normalGreen!important;
+
+}

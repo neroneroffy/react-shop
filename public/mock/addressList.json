@@ -1,0 +1,96 @@
+[
+  {
+    "consignee":"周海涛",
+    "telephone":18840846671,
+    "area": {
+      "value": 0,
+      "label": "北京",
+      "children": [
+        {
+          "value": 1,
+          "label": "北京",
+          "children": [
+            {
+              "value": 2,
+              "label": "通州"
+            }
+          ]
+        }
+      ]
+    },
+    "address":"北京市通州区绿荷农场",
+    "isCurrent":1,
+    "id":6
+  },
+  {
+    "consignee":"李四",
+    "telephone":18840846671,
+    "area": {
+      "value": 3,
+      "label": "天津",
+      "children": [
+        {
+          "value": 4,
+          "label": "天津",
+          "children": [
+            {
+              "value": 5,
+              "label": "武清"
+            }
+          ]
+        }
+      ]
+    },
+    "address":"天津市通州区绿荷农场",
+    "isCurrent":0,
+    "id":26
+  },
+  {
+    "consignee":"王五",
+    "telephone":18840846671,
+    "area":  {
+      "value": 6,
+      "label": "辽宁省",
+      "children": [
+        {
+          "value": 7,
+          "label": "大连市",
+          "children": [
+            {
+              "value": 8,
+              "label": "甘井子区"
+            }
+          ]
+        }
+      ]
+    },
+
+    "address":"大连市通州区绿荷农场",
+    "isCurrent":0,
+    "id":28
+  },
+  {
+    "consignee":"王五",
+    "telephone":18840846671,
+    "area":  {
+      "value": 6,
+      "label": "辽宁省",
+      "children": [
+        {
+          "value": 7,
+          "label": "大连市",
+          "children": [
+            {
+              "value": 8,
+              "label": "甘井子区"
+            }
+          ]
+        }
+      ]
+    },
+
+    "address":"大连市通州区绿荷农场",
+    "isCurrent":0,
+    "id":28
+  }
+]

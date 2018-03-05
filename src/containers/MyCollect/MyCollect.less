@@ -1,0 +1,182 @@
+@normalBackgroundColor:#f2f2f2;
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor: #757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+
+.my-coollect-head{
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-bottom:1px solid #e0e0e0;
+}
+.my-coollect-headC{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+.my-collect-head-inner{
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.my-collect-head-inner i{
+  position: absolute;
+  left: 0;
+  top: 20px;
+  color: @normalFontColor;
+  font-size: 14px;
+}
+.my-collect-head-inner .my-collect-head-content{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color:@normalFontColor;
+}
+.my-collect-head-inner .my-collect-head-contents{
+  height: 50px;
+  position: absolute;
+  font-size: @normalFontSize;
+  left: 20px;
+  top: 16px;
+  color:@normalFontColor;
+}
+
+.btn{
+  position: absolute;
+  right: 0;
+  top: 16px;
+  width: 34px;
+  height: 22px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.collectNull{
+  margin-top: 150px;
+}
+.collectNull p{
+    text-align: center;
+}
+.collectNull p:nth-child(1){
+  font-size: 16px;
+}
+.collectNull p:nth-child(2){
+  font-size: 12px;
+}
+.my-Collect{
+  margin-top: 50px;
+  margin-bottom: 56px;
+}
+.my-Collect{
+  background: #fff;
+  padding-bottom: 20px;
+}
+.my-collect-body{
+  border-bottom: 1px solid #eaeaea;
+  width: 90%;
+  background: white;
+  display: block;
+  margin: 0 auto;
+}
+.my-collect-body-content{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.my-collect-body-left{
+
+}
+.my-collect-body-left input{
+  margin-top: 30px;
+}
+.my-collect-body-pic img{
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+.my-collect-body-center{
+    margin-left: 20px;
+    display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.my-collect-body-center>div:nth-child(2){
+  margin-top: 0;
+  margin-left: 10px;
+}
+.my-collect-body-center>p p:first-child{
+  color: @normalFontColor;
+  font-size: @normalFontSize;
+  margin-bottom: 15px;
+}
+.my-collect-body-pricenew{
+  color: red;
+}
+.my-collect-body-priceold{
+  margin-left: 10px;
+  text-decoration:line-through;
+}
+.my-collect-body-right{
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.my-info-area-drop p{
+  font-size: 16px;
+  margin-top: 10px;
+}
+#tabbar{
+  position: fixed;
+  bottom: 0;
+  background: red;
+}
+.ant-modal-mask{
+  background:rgba(55,55,55,0.25);
+}
+.select-box{
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border:1px solid #d2d2d2;
+  border-radius: 50%;
+}
+.select-box-active{
+  background: @normalGreen;
+  border:none;
+  position: relative;
+}
+.select-box-active:before{
+  content: '';
+  display: block;
+  width: 5px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top:8px;
+  left:3px;
+  border-radius: 1px;
+  transform:rotate(45deg)
+
+}
+.select-box-active:after {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  border-radius: 1px;
+  transform: rotate(-35deg);
+}

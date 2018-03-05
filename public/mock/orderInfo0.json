@@ -1,0 +1,267 @@
+{
+  "data": [
+    {
+      "status":1,
+      "id":1,
+      "date":"2017/10/11 09:23:00",
+      "orderInfo":[
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "已付款已付款 ",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 50,
+                "speciItemId": 0,
+                "count": 3
+        },
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "全部全部全部全部全部",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 10,
+                "speciItemId": 0,
+                "count": 3
+        }
+      ],
+      "addressInfo":{
+        "consignee":"周海涛",
+        "telephone":"18840846671",
+        "area": {
+          "value": 0,
+          "label": "北京",
+          "children": [
+            {
+              "value": 1,
+              "label": "北京",
+              "children": [
+                {
+                  "value": 2,
+                  "label": "通州"
+                }
+              ]
+            }
+          ]
+        },
+        "address":"北京市通州区绿荷农场",
+        "isCurrent":1,
+        "id":6
+      },
+      "express": {
+        "expressType":"EMS",
+        "charge":10,
+        "isCurrent":1,
+        "id":888
+      },
+      "code":23651879568349745,
+      "coupon": {
+        "price":50,
+        "condition":10,
+        "deadline":"2017.03.29-2017.06.23",
+        "id":1,
+        "isCurrent":0
+      }
+    },
+    {
+      "status":0,
+      "isCurrent":false,
+      "id":2,
+      "date":"2017/09/27 09:23:00",
+      "orderInfo":[
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "未付款未付款 ",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 50,
+                "speciItemId": 0,
+                "count": 3
+        },
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "全部全部全部全部全部",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 10,
+                "speciItemId": 0,
+                "count": 3
+        }
+      ],
+      "addressInfo":{
+        "consignee":"周海涛",
+        "telephone":"18840846671",
+        "area": {
+          "value": 0,
+          "label": "北京",
+          "children": [
+            {
+              "value": 1,
+              "label": "北京",
+              "children": [
+                {
+                  "value": 2,
+                  "label": "通州"
+                }
+              ]
+            }
+          ]
+        },
+        "address":"北京市通州区绿荷农场",
+        "isCurrent":1,
+        "id":6
+      },
+      "express": {
+        "expressType":"EMS",
+        "charge":10,
+        "isCurrent":1,
+        "id":888
+      },
+      "code":23651879568349745,
+      "coupon": {
+        "price":50,
+        "condition":10,
+        "deadline":"2017.03.29-2017.06.23",
+        "id":1,
+        "isCurrent":0
+      }
+    },
+    {
+      "status":21,
+      "id":3,
+      "orderInfo":[
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "未付款未付款 ",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 50,
+                "speciItemId": 0,
+                "count": 3
+        },
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "全部全部全部全部全部",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 10,
+                "speciItemId": 0,
+                "count": 3
+        }
+      ],
+      "addressInfo":{
+        "consignee":"周海涛",
+        "telephone":"18840846671",
+        "area": {
+          "value": 0,
+          "label": "北京",
+          "children": [
+            {
+              "value": 1,
+              "label": "北京",
+              "children": [
+                {
+                  "value": 2,
+                  "label": "通州"
+                }
+              ]
+            }
+          ]
+        },
+        "address":"北京市通州区绿荷农场",
+        "isCurrent":1,
+        "id":6
+      },
+      "express": {
+        "expressType":"EMS",
+        "charge":10,
+        "isCurrent":1,
+        "id":888
+      },
+      "code":23651879568349745,
+      "coupon": {
+        "price":50,
+        "condition":10,
+        "deadline":"2017.03.29-2017.06.23",
+        "id":1,
+        "isCurrent":0
+      }
+    },
+    {
+      "status":22,
+      "id":4,
+      "orderInfo":[
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "未付款未付款 ",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 50,
+                "speciItemId": 0,
+                "count": 3
+        },
+        {
+                "pic": "../images/speci3pic1.jpg",
+                "name": "全部全部全部全部全部",
+                "id": 0,
+                "speciName": "包装",
+                "specificationId": 1,
+                "speciDetailName": "两粒装",
+                "price": 10,
+                "speciItemId": 0,
+                "count": 3
+        }
+      ],
+      "addressInfo":{
+        "consignee":"周海涛",
+        "telephone":"18840846671",
+        "area": {
+          "value": 0,
+          "label": "北京",
+          "children": [
+            {
+              "value": 1,
+              "label": "北京",
+              "children": [
+                {
+                  "value": 2,
+                  "label": "通州"
+                }
+              ]
+            }
+          ]
+        },
+        "address":"北京市通州区绿荷农场",
+        "isCurrent":1,
+        "id":6
+      },
+      "express": {
+        "expressType":"EMS",
+        "charge":10,
+        "isCurrent":1,
+        "id":888
+      },
+      "code":23651879568349745,
+      "coupon": {
+        "price":50,
+        "condition":10,
+        "deadline":"2017.03.29-2017.06.23",
+        "id":1,
+        "isCurrent":0
+      }
+    }
+  ]
+}

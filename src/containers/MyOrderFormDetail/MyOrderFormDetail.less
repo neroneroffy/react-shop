@@ -1,0 +1,240 @@
+@normalGreen:#64a930;
+@normalRed:#fc3500;
+@normalFontColor:#757575;
+@normalFontSize:14px;
+@normalBorderColor:#f2f2f2;
+.order-detail-top{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  left:0;
+  background: #fff;
+  border-bottom: 1px solid @normalBorderColor;
+}
+.order-detail-top-inner{
+  width: 90%;
+  margin:0 auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: @normalFontSize;
+}
+.my-order-form-detail{
+  padding-bottom: 70px;
+}
+.order-detail-top-inner .go-back{
+  height: 50px;
+  line-height: 50px;
+}
+.order-detail-top-inner .go-back span:nth-child(2){
+  margin-left: 10px;
+}
+.order-detail-content{
+  margin-top: 50px;
+}
+.order-detail-progress{
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(135deg, rgb(138, 208, 96), rgb(95, 209, 157));
+  display: flex;
+  align-items: center;
+}
+.progress-inner{
+  width: 90%;
+  margin:0 auto;
+  color:#fff;
+  font-size: 14px;
+
+
+}
+.progress-inner .remind{
+  margin: 5px 0 5px 0;
+}
+.progress-inner .remind span:nth-child(1){
+  color:#fff;
+  font-size: 16px;
+}
+.progress-inner .remind span:nth-child(2){
+  color:#fff;
+  font-size: 14px;
+}
+.order-detail-address{
+  background: #fff;
+  padding:10px 5%;
+  font-size: @normalFontSize;
+  display: flex;
+  justify-content: flex-start;
+}
+.order-detail-address>div:nth-child(1){
+  margin-top: 15px;
+  font-size: 20px;
+  position: relative;
+  width: 25px;
+  z-index: 0;
+}
+.order-detail-address>div:nth-child(2){
+  flex:1
+}
+.order-detail-loading{
+  margin-top: 300px;
+}
+.order-code{
+  height: 20px;
+  margin:0 auto;
+  line-height: 20px;
+  font-size: 12px;
+  color:#fff;
+}
+.order-good-info{
+  margin-top: 8px;
+  width: 100%;
+  background: #fff;
+}
+.order-good-info .goodInfoInner{
+  width: 90%;
+  margin:0 auto;
+  padding:5px 0 0px 0
+}
+.order-good-info .goodInfoInner .title{
+  height: 50px;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  border-bottom: 1px solid @normalBorderColor;
+  margin-bottom: 18px;
+}
+.order-good-info .goodInfoInner .title span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.order-good-info .goodInfoInner .title span:nth-child(2){
+  margin-top: 6px;
+}
+.order-good-info .goodInfoInner .title .logo{
+  font-size: 0;
+}
+.order-good-info .goodInfoInner .title .logo img{
+  margin-top: 3px;
+  width: 40px;
+}
+.order-detail-price-info{
+  padding-bottom: 20px;
+}
+.order-price-info{
+  height: 35px;
+  line-height: 35px;
+  text-align: right;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.order-express-name{
+  margin-right: 10px;
+}
+.real-price{
+  font-size: 16px;
+  color:@normalRed;
+  font-weight: bold;
+}
+.real-price span:nth-child(1){
+  font-size: 16px;
+  color:@normalFontColor;
+
+}
+.real-price span:nth-child(2){
+  font-size: 18px;
+}
+.real-price span:nth-child(2)>span{
+  font-size: 14px;
+  color:@normalRed;
+}
+.order-bottom-operation{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  z-index: 2000;
+  padding:0 5%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 -2px 4px #e5e5e5;
+}
+.order-operation-inner{
+  display: flex;
+  justify-content: flex-end;
+}
+.order-detail-operation-button{
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 30px;
+  padding:0 10px;
+  border:1px solid #b6b6b6;
+  font-size: @normalFontSize;
+  color: @normalFontColor;
+  margin-left: 10px;
+}
+.pay-my-order{
+  border-color: @normalGreen;
+  color:@normalGreen;
+  padding:0 7px
+}
+.pay-this-order{
+  border-color: @normalGreen;
+  color:@normalGreen;
+  padding:0 20px
+
+}
+.order-disable-button{
+  color:#b6b6b6;
+  border-color: #b6b6b6;
+}
+.order-detail-price-info .order-remark{
+  line-height: 18px;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.order-detail-price-info .order-remark div:first-child{
+  width: 20%;
+}
+.order-detail-price-info .order-remark div:last-child{
+  width: 80%;
+}
+
+.submit-loading{
+  width: 70px;
+  height: 70px;
+  background: #000;
+  opacity: 0.3;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.submit-loading div{
+  height: 20px;
+}
+.submit-loading div:nth-child(1){
+  margin-top: -10px;
+  font-size: 20px;
+
+}
+.submit-loading div i{
+  margin-top: -10px;
+}

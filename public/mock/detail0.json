@@ -1,0 +1,29 @@
+{
+  "user":{
+    "img":"../../images/avatar1.jpg",
+    "name":"小黑犬",
+    "weChat":"18826736567",
+    "code":1
+  },
+  "data":[
+    {
+      "img":"../../images/detail1.jpg",
+      "name":"宝宝绿壳蛋",
+      "price":"3.98",
+      "count":1,
+      "id":1
+    },{
+      "img":"../../images/detail2.jpg",
+      "name":"鸡蛋",
+      "price":"10.00",
+      "count":5,
+      "id":2
+    },{
+      "img":"../../images/detail2.jpg",
+      "name":"鸡蛋",
+      "price":"10.00",
+      "count":5,
+      "id":2
+    }
+  ]
+}
